@@ -17,6 +17,8 @@ import DataLink from "./pages/DataLink";
 import Template from "./pages/Template";
 import Result from "./pages/Result";
 import ResultA from "./pages/ResultA";
+import ResultB from "./pages/ResultB";
+import ResultC from "./pages/ResultC";
 import NotFound from "./pages/NotFound";
 import CreateLink from "./pages/CreateLink";
 import UpdateLink from "./pages/UpdateLink";
@@ -82,6 +84,8 @@ function App() {
         <Route path="/Update_link/:id" element={<UpdateLink />} />
         <Route path="/result/:id" element={<Result />} />
         <Route path="/resultA/:id" element={<ResultA />} />
+        <Route path="/resultB/:id" element={<ResultB />} />
+        <Route path="/resultC/:id" element={<ResultC />} />
       </Routes>
     </>
   );

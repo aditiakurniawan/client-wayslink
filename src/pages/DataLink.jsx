@@ -83,7 +83,7 @@ function DataLink() {
     console.log("ini response user", response);
     return response.data.data;
   });
-  let count = dataFilter.length - 3;
+  let count = dataFilter.length - 7;
 
   return (
     <>
@@ -181,9 +181,9 @@ function DataLink() {
                         </Col>
 
                         <Col sm={2} className="mx-5">
-                          <h3>10</h3>
+                          {/* <h3>10</h3>
 
-                          <p>Visit</p>
+                          <p>Visit</p> */}
                         </Col>
 
                         <Col sm={1}>
